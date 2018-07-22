@@ -88,6 +88,7 @@ function findExample(){
     start=new Date();
     player.find().limit(5000).then(function(result){
         end=new Date();
+        console.log(result);
         console.log("found time needed "+(end-start));
     });
 
@@ -172,7 +173,8 @@ function updateInfo(){
 // sortExample();
 // dropCollection();
 
-inputData();
+// inputData();
+findExample();
 //updateInfo();
 
 
