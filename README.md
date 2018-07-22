@@ -1,1 +1,2 @@
-# MongoDbTest
+1. We can use find() and findOne() methods to search for a record.
+2. Connection.js drops the collection before each test and search js creates a record saves it to collection and the executes it block test to search a record.
