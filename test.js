@@ -171,6 +171,7 @@ function updateInfo(){
 // findIndex();
 // sortExample();
 // dropCollection();
+
 inputData();
 //updateInfo();
 
