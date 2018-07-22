@@ -121,8 +121,8 @@ function groupExample(){
     });
 }
 function inputData(){
-    for(var i=0;i<5;i++){
-        p=new rank(
+    for(var i=0;i<50;i++){
+        p=new player(
             {
                 name:"p"+i,                
                 // scale:Math.floor(Math.random()*5),
@@ -173,7 +173,7 @@ function updateInfo(){
 // sortExample();
 // dropCollection();
 
-// inputData();
+ inputData();
 findExample();
 //updateInfo();
 
